@@ -1,9 +1,10 @@
 const StoryblokClient = require('storyblok-js-client')
 
 // !!! Change to your Storyblok preview token
-const StoryblokToken = 'R5hUgUB9PGoRq2XwtYw14wtt'
+const StoryblokToken = 'eTlKZ4rlQXUhMPHMLJw5eQtt'
 
 module.exports = {
+  target: 'static',
   /*
   ** Headers of the page
   */
@@ -51,7 +52,7 @@ module.exports = {
     '@/plugins/components'
   ],
   modules: [
-    ['storyblok-nuxt', {accessToken: 'R5hUgUB9PGoRq2XwtYw14wtt', cacheProvider: 'memory'}]
+    ['storyblok-nuxt', {accessToken: 'eTlKZ4rlQXUhMPHMLJw5eQtt', cacheProvider: 'memory'}]
   ],
   generate: {
     routes() {
